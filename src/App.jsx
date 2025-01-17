@@ -78,7 +78,7 @@ export default function App() {
             <h2>{count > 0 && `You rolled ${count} times.`}</h2>
             <p>
                 {gameWon
-                    ? `You won! Press the "New Game" button to start again.`
+                    ? `You won!\nPress the "New Game" button to start again.`
                     : `Roll until all dice show the same number.\nClick a die to hold it.`}
             </p>
             <div
