@@ -74,12 +74,12 @@ export default function App() {
                 <Confetti width={windowSize.width} height={windowSize.height} />
             )}
             <h1>Dice Game</h1>
-            
+
             <h2>{count > 0 && `You rolled ${count} times.`}</h2>
             <p>
                 {gameWon
                     ? `You won! Press the "New Game" button to start again.`
-                    : `Roll until all dice show the same number. Click a die to hold it.`}
+                    : `Roll until all dice show the same number.\nClick a die to hold it.`}
             </p>
             <div
                 className="dice-container"

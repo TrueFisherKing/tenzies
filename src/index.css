@@ -24,6 +24,10 @@ h2 {
     height: 28px;
     margin: 0;
 }
+p {
+    text-align: center;
+    white-space: pre-line;  
+}
 main {
     align-items: center;
     background-color: #F5F5F5;
